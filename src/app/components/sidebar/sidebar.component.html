@@ -1,0 +1,15 @@
+<aside class="container">
+    <!-- Sticker para abrir el menu -->
+    <div class="container__sticker" (click)="menuActivating()">
+        <i class="element__i fa-solid fa-bars"></i>
+    </div>
+
+    <!-- menu -->
+    <div class="container__elements" [ngClass]="{ 'menu-active': menuActive }">
+        <div class="elements__element" *ngFor="let elemento of elementos">
+            <i class="element__i" [ngClass]="elemento.class"></i>
+            <div class="element__title">{{ elemento.title }}</div>
+        </div>
+    </div>
+</aside>
+

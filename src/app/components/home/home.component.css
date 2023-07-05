@@ -1,0 +1,44 @@
+/* estilos.css */
+
+.container {
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container__table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table__head {
+    background-color: #2B2D42;
+    color: #EDF2F4;
+}
+
+.table__h {
+    padding: 12px;
+}
+
+.table__b {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table__body tr:nth-child(odd) {
+    background-color: #EDF2F4;
+}
+
+.table__body tr:nth-child(even) {
+    background-color: #8d99ae69;
+}
+
+.table__body tr:hover {
+    background-color: #ef233b88;
+}
+
+
