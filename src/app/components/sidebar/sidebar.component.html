@@ -11,5 +11,15 @@
             <div class="element__title">{{ elemento.title }}</div>
         </div>
     </div>
+
+
+    <!-- Prueba -->
+    <div class="container__prueba" [ngClass]="{ 'menu-activeP': menuActive }">
+        <div class="prueba__elements">
+            <div class="elements__elementP" *ngFor="let elemento of elementos">
+                <div class="element__title2">{{ elemento.title }}</div>
+            </div>
+        </div>
+    </div>
 </aside>
 
