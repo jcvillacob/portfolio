@@ -5,6 +5,15 @@
     margin:auto;
     padding: 20px;
     text-align: center;
+    transform: translatey(200px);
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.init {
+    opacity: 1;
+    transform: translatey(0);
+
 }
 
 .container__table {

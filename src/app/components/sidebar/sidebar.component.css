@@ -124,6 +124,7 @@
     top: calc(-93%);
     color: #edf2f4;
     transition: all 0.5s ease;
+    box-shadow: -4px 2px 20px rgba(0, 0, 0, 0.562);
 }
 
 .prueba__elements {
@@ -134,7 +135,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    transition: all 0.7s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .element__title2 {
