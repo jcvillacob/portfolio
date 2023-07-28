@@ -14,16 +14,15 @@ export class LandingComponent implements AfterViewInit {
     /* PRIMER SWIPPER */
     new Swiper(".mySwiper", {
       direction: "vertical",
-      effect: 'cards',
       slidesPerView: 1,
       spaceBetween: 30,
       mousewheel: true,
       loop: false,
-      speed: 600,
-      pagination: {
+      speed: 700,
+      /* pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
+      }, */
     });
   }
 

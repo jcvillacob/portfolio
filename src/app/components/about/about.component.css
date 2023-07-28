@@ -1,0 +1,71 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+/* LEFT */
+.container__left {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.left__title {
+    width: 70%;
+    text-align: start;
+}
+
+.title__name {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.left__paragraph {
+    width: 60%;
+    text-align: justify;
+    padding-left: 5%
+}
+
+.paragraph__text, .element__title {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* RIGHT */
+.container__right {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    padding: 70px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.right__elements {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 40%;
+}
+
+.element__title {
+    text-align: justify;
+}
